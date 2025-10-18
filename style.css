@@ -116,3 +116,7 @@ footer {
   max-width: 1000px; /* keeps lines from getting too wide */
   padding: 20px;
 }
+
+.specialheader {
+  font_color: #6B9BCA;
+}
