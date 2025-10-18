@@ -5,10 +5,12 @@
   font-style: normal;
 }
 
+/* Title uses ReignBeats */
 header h1 {
   font-family: 'ReignBeats', sans-serif;
   font-size: 3rem;
   letter-spacing: 2px;
+  margin-top: 1rem;
 }
 
 body {
@@ -17,19 +19,21 @@ body {
   background-color: #f4f4f9;
   color: #333;
 }
+
 header {
   background-color: #4b0082;
   color: white;
   padding: 3rem 1rem 2rem;
   text-align: center;
-  font-family: 'Bungee', sans-serif;
+  position: relative;
 }
+
 /* 🖼️ Reveille image top-left */
 .corner-logo {
   position: absolute;
   top: 15px;
   left: 20px;
-  width: 100px;      /* adjust size */
+  width: 100px;
   height: auto;
   border-radius: 10px;
 }
@@ -52,7 +56,7 @@ main {
 button {
   background-color: #6200ea;
   color: white;
-  border: 30px;
+  border: none;
   padding: 100px 200px;
   cursor: pointer;
   border-radius: 15px;
