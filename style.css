@@ -63,7 +63,9 @@ button {
   height: 100px;
   cursor: pointer;
   border-radius: 15px;
-  font_size: 25px;
+  font_size: 50px;
+  top: 50px;
+  bottom: 50px;
 }
 
 button:hover {
@@ -76,8 +78,7 @@ button:hover {
   gap: 200px; 
   justify-content: center; 
   align-items: center; 
-  top: 50px;
-  bottom: 50px;
+  
 }
 
 
