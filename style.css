@@ -93,7 +93,7 @@ footer {
 /* history of skating */
 .history {
   font-family: "Georgia", serif;
-  background-color: #00BFFF;
+  
   border_radius: 15px;
   
   font-size: 1.1rem;
@@ -101,14 +101,13 @@ footer {
   color: #222; /* optional: make it a bit darker for readability */
   margin: 0 auto;
   max-width: 1000px; /* keeps lines from getting too wide */
-  padding: 20px;
-  left_padding: 20px;
-  right_padding: 20px;
+  
+ 
 }
 
 .benefits {
   font-family: "Georgia", serif;
-  background-color: #00BFFF;
+  
   border_radius: 15px;
   
   font-size: 1.1rem;
@@ -116,12 +115,21 @@ footer {
   color: #222; /* optional: make it a bit darker for readability */
   margin: 0 auto;
   max-width: 1000px; /* keeps lines from getting too wide */
-  padding: 20px;
-  left_padding: 20px;
-  right_padding: 20px;
+
+ 
 }
 
 .specialheader {
   font_color: #6B9BCA;
 }
+
+.colored-paragraph {
+        background-color: #00BFFF; /* Example: Light blue background */
+        padding-left: 20px;       /* Example: 20px padding on the left */
+        padding-right: 20px;      /* Example: 20px padding on the right */
+        padding-top: 10px;        /* Optional: Add top padding */
+        padding-bottom: 10px;     /* Optional: Add bottom padding */
+}
+
+
 
