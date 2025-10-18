@@ -130,6 +130,16 @@ footer {
         padding-top: 10px;        /* Optional: Add top padding */
         padding-bottom: 10px;     /* Optional: Add bottom padding */
 }
+.colored-header {
+        background-color: #151B54; /* Example: Light blue background */
+        padding-left: 20px;       /* Example: 20px padding on the left */
+        padding-right: 20px;      /* Example: 20px padding on the right */
+        padding-top: 10px;        /* Optional: Add top padding */
+        padding-bottom: 10px;     /* Optional: Add bottom padding */
+        font_color: #82CAFF;
+}
+
+
 
 
 
