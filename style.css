@@ -12,6 +12,15 @@ header {
   text-align: center;
   font-family: 'Bungee', sans-serif;
 }
+/* 🖼️ Reveille image top-left */
+.corner-logo {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 100px;      /* adjust size */
+  height: auto;
+  border-radius: 10px;
+}
 
 nav a {
   color: white;
