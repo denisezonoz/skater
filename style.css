@@ -67,6 +67,14 @@ button:hover {
   box-shadow: 0 0 10px #003399;
 }
 
+.button-container {
+  display: flex;
+  gap: 50px; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+
 footer {
   background-color: #222;
   color: #ccc;
