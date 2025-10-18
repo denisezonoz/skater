@@ -133,6 +133,7 @@ footer {
         padding-top: 10px;        /* Optional: Add top padding */
         padding-bottom: 10px;     /* Optional: Add bottom padding */
         border_radius: 25px;
+        align-items: center; 
 }
 .colored-header {
         background-color: #151B54; /* Example: Light blue background */
@@ -143,7 +144,8 @@ footer {
         color: #82CAFF;
         border_radius: 30px;
         width: 400px;
-        height: 200px;
+        height: 100px;
+        align-items: center; 
   
 }
 
