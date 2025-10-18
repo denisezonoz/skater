@@ -101,6 +101,7 @@ footer {
   color: #222; /* optional: make it a bit darker for readability */
   margin: 0 auto;
   max-width: 1000px; /* keeps lines from getting too wide */
+  padding: 20px;
 }
 
 .benefits {
@@ -113,4 +114,5 @@ footer {
   color: #222; /* optional: make it a bit darker for readability */
   margin: 0 auto;
   max-width: 1000px; /* keeps lines from getting too wide */
+  padding: 20px;
 }
