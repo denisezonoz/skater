@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'ReignBeats';
+  src: url('fonts/ReignBeats.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+header h1 {
+  font-family: 'ReignBeats', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
 
 body {
   font-family: Arial, sans-serif;
