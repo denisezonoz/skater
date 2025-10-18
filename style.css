@@ -128,8 +128,8 @@ footer {
 
 .colored-paragraph {
         background-color: #00BFFF; /* Example: Light blue background */
-        padding-left: 20px;       /* Example: 20px padding on the left */
-        padding-right: 20px;      /* Example: 20px padding on the right */
+        padding-left: 40px;       /* Example: 20px padding on the left */
+        padding-right: 40px;      /* Example: 20px padding on the right */
         padding-top: 10px;        /* Optional: Add top padding */
         padding-bottom: 10px;     /* Optional: Add bottom padding */
         border_radius: 25px;
