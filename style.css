@@ -96,7 +96,7 @@ footer {
   line-height: 1.6;
   color: #222; /* optional: make it a bit darker for readability */
   margin: 0 auto;
-  max-width: 900px; /* keeps lines from getting too wide */
+  max-width: 1000px; /* keeps lines from getting too wide */
 }
 
 .benefits {
@@ -105,5 +105,5 @@ footer {
   line-height: 1.6;
   color: #222; /* optional: make it a bit darker for readability */
   margin: 0 auto;
-  max-width: 900px; /* keeps lines from getting too wide */
+  max-width: 1000px; /* keeps lines from getting too wide */
 }
