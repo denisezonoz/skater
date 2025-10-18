@@ -120,3 +120,48 @@ footer {
 .specialheader {
   font_color: #6B9BCA;
 }
+
+
+/* skateboard animated */
+/* Customize speed and size here */
+:root {
+  --skate-size: 140px;   /* width of the skateboard */
+  --skate-speed: 8s;     /* time to cross the screen */
+}
+
+/* the moving board */
+.skate-across {
+  position: fixed;              /* stays visible while scrolling */
+  bottom: 8vh;                  /* height off the bottom edge */
+  left: -200px;                 /* start off-screen to the left */
+  width: var(--skate-size);
+  height: auto;
+  z-index: 10;                  /* above background */
+  animation: skate var(--skate-speed) linear infinite;
+  /* slight bob for life */
+  animation-name: skate, bob;
+  animation-duration: var(--skate-speed), 1.2s;
+  animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+}
+
+/* move left → right across full viewport then reset */
+@keyframes skate {
+  0%   { transform: translateX(0) rotate(0deg); }
+  100% { transform: translateX(calc(100vw + 400px)) rotate(2deg); }
+}
+
+/* subtle up–down motion */
+@keyframes bob {
+  0%,100% { transform: translateY(0); }
+  50%     { transform: translateY(-6px); }
+}
+
+/* Pause when hovered (optional) */
+.skate-across:hover { animation-play-state: paused; }
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .skate-across { animation: none; }
+}
+
