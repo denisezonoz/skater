@@ -92,7 +92,9 @@ footer {
 /* history of skating */
 .history {
   font-family: "Georgia", serif;
-  color: white;
+  background-color: #00BFFF;
+  border_radius: 15px;
+  
   font-size: 1.1rem;
   line-height: 1.6;
   color: #222; /* optional: make it a bit darker for readability */
@@ -102,7 +104,9 @@ footer {
 
 .benefits {
   font-family: "Georgia", serif;
-  color: white;
+  background-color: #00BFFF;
+  border_radius: 15px;
+  
   font-size: 1.1rem;
   line-height: 1.6;
   color: #222; /* optional: make it a bit darker for readability */
