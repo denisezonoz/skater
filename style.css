@@ -120,7 +120,7 @@ footer {
 }
 
 .specialheader {
-  font_color: #6B9BCA;
+  color: #6B9BCA;
 }
 
 .colored-paragraph {
@@ -136,7 +136,7 @@ footer {
         padding-right: 20px;      /* Example: 20px padding on the right */
         padding-top: 10px;        /* Optional: Add top padding */
         padding-bottom: 10px;     /* Optional: Add bottom padding */
-        font_color: #82CAFF;
+        color: #82CAFF;
 }
 
 
