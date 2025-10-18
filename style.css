@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -38,6 +39,7 @@ button {
 
 button:hover {
   background-color: #4e00b8;
+  box-shadow: 0 0 10px #003399;
 }
 
 footer {
