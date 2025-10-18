@@ -76,8 +76,8 @@ button:hover {
   gap: 100px; 
   justify-content: center; 
   align-items: center; 
-  padding_top: 50px;
-  padding_bottom: 50px;
+  top: 50px;
+  bottom: 50px;
 }
 
 
