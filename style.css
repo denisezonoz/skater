@@ -21,6 +21,11 @@ body {
   color: #fff; /* white text for contrast */
 }
 
+section {
+  padding-bottom: 20px; /* Adds 30px of internal space at the bottom of each section */
+  padding-top: 20px;
+}
+
 
 header {
   background-color: #4b0082;
