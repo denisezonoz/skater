@@ -74,3 +74,13 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+/* history of skating */
+.history {
+  font-family: "Georgia", serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #222; /* optional: make it a bit darker for readability */
+  margin: 0 auto;
+  max-width: 900px; /* keeps lines from getting too wide */
+}
